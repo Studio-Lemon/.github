@@ -38,3 +38,7 @@ body:
         - label: Add website to Google Analytics
         - label: Configure tracking/analytics
         - label: Add website to Google Search Console
+        - label: Did we enable caching?
+        - label: Did we configured backups?
+        - label: is the .env file set to production?
+        - label: Did we add the website to ManageWP?
