@@ -20,7 +20,22 @@ body:
 
   - type: checkboxes
     attributes:
-      label: Definition of Done
-      description: What needs to be done to consider this project complete?
+      label: Tasks at start of project
+      description: Initial tasks to be completed before starting the project
       options:
-        - label: I agree to follow this project's [Code of Conduct](link/to/coc)
+        - label: item 1
+        - label: item 2
+  - type: checkboxes
+    attributes:
+      label: Tasks during project
+      description: Common tasks to be completed during the project
+      options:
+        - label: item 1
+        - label: item 2
+  - type: checkboxes
+    attributes:
+      label: Tasks at end of project
+      description: Final tasks to be completed before finishing the project
+      options:
+        - label: item 1
+        - label: item 2
