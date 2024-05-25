@@ -27,7 +27,6 @@ body:
       description: Common tasks to be completed during the project
       options:
         - label: 'Bigger projects: do we have staging backups in place?'
-        - label: item 2
   - type: checkboxes
     attributes:
       label: Tasks at end of project
@@ -35,6 +34,7 @@ body:
       options:
         - label: Are forms working/do they send replies?
         - label: Is ReCaptcha set up?
+        - label: Is Mailgun set up?
         - label: Check SMTP settings
         - label: Add website to Google Analytics
         - label: Configure tracking/analytics
