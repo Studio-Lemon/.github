@@ -1,0 +1,35 @@
+name: Definition of done
+description: Standard ticket when we finish up a project
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: >
+        **This form is for suggesting idea for this project.**
+
+
+        If you have a question or you're looking for support:
+
+
+        * Visit [Roots Discourse](https://discourse.roots.io/) to ask questions
+
+        * Join our [Discord server](https://github.com/sponsors/roots) by sponsoring us
+
+        * [Read the docs](https://roots.io/docs/)
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Explanation of the feature.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this feature request form!
