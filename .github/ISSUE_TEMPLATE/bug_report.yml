@@ -1,0 +1,74 @@
+name: 🐛 Bug Report
+description: Create a bug report
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This form is for submitting bug reports.**
+
+        If you have a question or you're looking for support:
+
+        * Visit [Roots Discourse](https://discourse.roots.io/) to ask questions
+        * Join our [Discord server](https://github.com/sponsors/roots) by sponsoring us
+        * [Read the docs](https://roots.io/docs/)
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: What actually happens?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Please provide comprehensive reproduction steps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: versions
+    attributes:
+      label: System info
+      description: Please include your OS and what version of the OS you’re running.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: Please copy and paste any relevant output. Do not include screenshots of code or errors.
+      render: shell
+
+  - type: dropdown
+    id: support
+    attributes:
+      label: Please confirm this isn't a support request.
+      description: Non-reproducible issues may be closed and you will be asked to create a topic on [Roots Discourse](https://discourse.roots.io/).
+      multiple: true
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report!
