@@ -16,4 +16,3 @@ body:
     description: 'Please make sure all the following tasks are completed before closing the project'
     options:
       - label: Item 1
-      - label: Item 2
