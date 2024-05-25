@@ -1,6 +1,7 @@
 name: '💫 Definition of done'
 description: '💫 Standard ticket when we finish up a project'
 labels: [bug]
+assignees: 'levdbas'
 
 body:
   - type: markdown
