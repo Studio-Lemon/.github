@@ -32,6 +32,7 @@ body:
       label: Tasks at end of project
       description: Final tasks to be completed before finishing the project
       options:
+        - label: Are licenses activated?
         - label: Are forms working/do they send replies?
         - label: Is ReCaptcha set up?
         - label: Is Mailgun set up?
@@ -41,5 +42,5 @@ body:
         - label: Add website to Google Search Console
         - label: Did we enable caching? Did we set the caching to 10 hours max?
         - label: Did we configured backups?
-        - label: is the .env file set to production?
+        - label: Is the .env file set to production?
         - label: Did we add the website to ManageWP?
