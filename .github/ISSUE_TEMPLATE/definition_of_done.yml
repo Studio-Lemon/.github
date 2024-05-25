@@ -18,19 +18,23 @@ body:
       label: Tasks at start of project
       description: Initial tasks to be completed before starting the project
       options:
-        - label: item 1
-        - label: item 2
+        - label: Do we have a hosting environment?
+        - label: Do we have a domain name?
+        - label: Will we do maintenance on the project?
   - type: checkboxes
     attributes:
       label: Tasks during project
       description: Common tasks to be completed during the project
       options:
-        - label: item 1
+        - label: 'Bigger projects: do we have staging backups in place?'
         - label: item 2
   - type: checkboxes
     attributes:
       label: Tasks at end of project
       description: Final tasks to be completed before finishing the project
       options:
-        - label: item 1
-        - label: item 2
+        - label: Are forms working/do they send replies?
+        - label: Check SMTP settings
+        - label: Add website to Google Analytics
+        - label: Configure tracking/analytics
+        - label: Add website to Google Search Console
