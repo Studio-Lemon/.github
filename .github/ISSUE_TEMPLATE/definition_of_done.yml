@@ -6,17 +6,9 @@ body:
   - type: markdown
     attributes:
       value: >
-        **This form is for suggesting idea for this project.**
+        **These are the most common tasks that we have in each project.**
+        Please check the ones that apply to this project.
 
-
-        If you have a question or you're looking for support:
-
-
-        * Visit [Roots Discourse](https://discourse.roots.io/) to ask questions
-
-        * Join our [Discord server](https://github.com/sponsors/roots) by sponsoring us
-
-        * [Read the docs](https://roots.io/docs/)
 
   - type: checkboxes
     attributes:
