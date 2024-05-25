@@ -34,11 +34,12 @@ body:
       description: Final tasks to be completed before finishing the project
       options:
         - label: Are forms working/do they send replies?
+        - label: Is ReCaptcha set up?
         - label: Check SMTP settings
         - label: Add website to Google Analytics
         - label: Configure tracking/analytics
         - label: Add website to Google Search Console
-        - label: Did we enable caching?
+        - label: Did we enable caching? Did we set the caching to 10 hours max?
         - label: Did we configured backups?
         - label: is the .env file set to production?
         - label: Did we add the website to ManageWP?
