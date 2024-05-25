@@ -1,5 +1,5 @@
-name: Definition of done
-description: Standard ticket when we finish up a project
+name: '💫 Definition of done'
+description: '💫 Standard ticket when we finish up a project'
 labels: [bug]
 
 body:
