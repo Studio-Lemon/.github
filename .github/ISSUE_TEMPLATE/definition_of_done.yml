@@ -1,35 +1,20 @@
-name: Definition of done
+name: 🎆 Project lifecycle - Definition of done
 description: Standard ticket when we finish up a project
-labels: [bug]
+title: '🎆 Project lifecycle - Definition of done'
+pinned: true
+labels: ''
+assignees: Levdbas
 
 body:
   - type: markdown
     attributes:
       value: >
-        **This form is for suggesting idea for this project.**
+        **This ticket is to track the most important and common tasks within each project lifecycle.**
 
-
-        If you have a question or you're looking for support:
-
-
-        * Visit [Roots Discourse](https://discourse.roots.io/) to ask questions
-
-        * Join our [Discord server](https://github.com/sponsors/roots) by sponsoring us
-
-        * [Read the docs](https://roots.io/docs/)
-  - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: Explanation of the feature.
-    validations:
-      required: true
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional context
-      description: Add any other context or screenshots about the feature request here.
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for taking the time to fill out this feature request form!
+- type: checkboxes
+  attributes:
+    label: Definition of done
+    description: 'Please make sure all the following tasks are completed before closing the project'
+    options:
+      - label: Item 1
+      - label: Item 2
