@@ -17,9 +17,10 @@ body:
         * Join our [Discord server](https://github.com/sponsors/roots) by sponsoring us
 
         * [Read the docs](https://roots.io/docs/)
-- type: checkboxes
-  attributes:
-    label: Definition of Done
-    description: What needs to be done to consider this project complete?
-    options:
-      - label: I agree to follow this project's [Code of Conduct](link/to/coc)
+
+  - type: checkboxes
+    attributes:
+      label: Definition of Done
+      description: What needs to be done to consider this project complete?
+      options:
+        - label: I agree to follow this project's [Code of Conduct](link/to/coc)
