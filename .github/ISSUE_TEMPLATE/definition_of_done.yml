@@ -9,10 +9,3 @@ body:
     attributes:
       value: >
         **This ticket is to track the most important and common tasks within each project lifecycle.**
-
-- type: checkboxes
-  attributes:
-    label: Definition of done
-    description: 'Please make sure all the following tasks are completed before closing the project'
-    options:
-      - label: Item 1
