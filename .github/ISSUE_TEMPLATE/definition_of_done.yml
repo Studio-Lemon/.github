@@ -1,6 +1,8 @@
 name: '💫 Definition of done'
 description: '💫 Standard ticket when we finish up a project'
 assignees: 'levdbas'
+labels:
+  - 'project management'
 
 body:
   - type: markdown
