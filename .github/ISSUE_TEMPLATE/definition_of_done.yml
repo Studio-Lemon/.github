@@ -29,6 +29,13 @@ body:
         - label: 'Bigger projects: do we have staging backups in place?'
   - type: checkboxes
     attributes:
+      label: Just before deployment
+      description: Things we have to check before deployment
+      options:
+        - label: Does the staging server has enought resources?
+        - label: '⚠️ BACKUP database ⚠️'
+  - type: checkboxes
+    attributes:
       label: Tasks at end of project
       description: Final tasks to be completed before finishing the project
       options:
