@@ -23,7 +23,7 @@ assignees: 'levdbas'
 - [ ] ⚠️ BACKUP database ⚠️
 
 ### Tasks at end of project
-
+- [ ] Did we set the correct manfinest information in child-setup.php
 - [ ] Are licenses activated?
 - [ ] Are forms working/do they send replies?
 - [ ] Is ReCaptcha set up?
