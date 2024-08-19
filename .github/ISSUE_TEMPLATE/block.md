@@ -2,7 +2,7 @@
 name: 🧱 Custom block
 about: Create a custom block ticket
 title: 🧱 Title
-labels: Development, Blocks
+labels: Block
 assignees: ''
 
 ---
