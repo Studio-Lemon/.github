@@ -30,7 +30,7 @@ assignees: 'levdbas'
 - [ ] Is Mailgun set up?
 - [ ] Check SMTP settings
 - [ ] Add website to Google Analytics
-- [ ] Configure tracking/analytics
+- [ ] Configure tracking/analytics, is tagmanger container/analytics container loaded?
 - [ ] Add website to Google Search Console
 - [ ] Did we enable caching? Did we set the caching to 10 hours max?
 - [ ] Did we configured backups?
