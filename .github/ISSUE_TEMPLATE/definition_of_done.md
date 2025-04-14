@@ -36,3 +36,4 @@ assignees: 'levdbas'
 - [ ] Did we configured backups?
 - [ ] Is the .env file set to production?
 - [ ] Did we add the website to ManageWP?
+- [ ] Add HTTP auth to staging environment or change username/password combination.
