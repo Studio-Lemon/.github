@@ -1,6 +1,6 @@
 name: 🐞 Bug/fout melden
 description: Meld een bug/probleem zodat we uw website kunnen verbeteren
-title: "[BUG] Your title"
+title: "[BUG] Korte beschrijving probleem"
 body:
 - type: markdown
   attributes:
