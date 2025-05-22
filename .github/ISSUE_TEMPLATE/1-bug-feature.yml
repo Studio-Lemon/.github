@@ -9,7 +9,7 @@ body:
 - type: textarea
   attributes:
     label: Beschrijving van het probleem
-    description: Beschrijf zo gedtailleerd mogelijk wat het probleem is. Je kan hier ook screenshots plaatsen.
+    description: Beschrijf zo gedetailleerd mogelijk wat het probleem is. Je kan hier ook screenshots plaatsen.
   validations:
     required: true
 - type: input
