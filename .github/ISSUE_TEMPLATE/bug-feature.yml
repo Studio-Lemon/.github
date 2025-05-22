@@ -1,0 +1,24 @@
+name: 🐞 Bug/fout melden
+description: Meld een bug/probleem zodat we uw website kunnen verbeteren
+title: "[BUG] Your title"
+body:
+- type: markdown
+  attributes:
+    value: |
+      Je kan via deze route een bug/probleem melden.
+- type: textarea
+  attributes:
+    label: Beschrijving van het probleem
+    description: Beschrijf zo gedtailleerd mogelijk wat het probleem is. Je kan hier ook screenshots plaatsen.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: URL waar het probleem zich voordoet
+    description: Plak de URL op de plek waar het probleem zich voordoet.
+  validations:
+    required: false
+  validations:
+    required: false
+  validations:
+    required: false
