@@ -26,7 +26,7 @@ assignees: 'levdbas'
 - [ ] Did we set the correct manfinest information in child-setup.php
 - [ ] Are licenses activated?
 - [ ] Are forms working/do they send replies?
-- [ ] Is ReCaptcha set up?
+- [ ] Create [Recaptcha key](https://www.google.com/recaptcha/admin/create) and add it to forms plugin
 - [ ] Is Mailgun set up?
 - [ ] Check SMTP settings
 - [ ] Add website to Google Analytics
