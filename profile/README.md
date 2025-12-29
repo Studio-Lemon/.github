@@ -12,3 +12,5 @@ Our backbone is a carefully designed stack built around WordPress, Timber, and o
 We built this stack for developers who are tired of repeating themselves. No more rebuilding the same features, solving the same problems, or fighting WordPress to do things “the right way.” With wp-lemon, common challenges are already solved, best practices are baked in, and your energy goes where it matters most: designing thoughtful solutions and building great products.
 
 If you want to focus on creating, not coping—on improving ideas instead of patching workarounds—this is the place for you. Join a team that treats WordPress as a powerful tool, not a limitation, and help us prove that with the right foundation, working with WordPress can be inspiring again.
+
+Check us out at [Studio Lemon](https://studiolemon.nl/vacature-wordpress-specialist/).
